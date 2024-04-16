@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root{
-    --cor-de-fundo: #96e4e4;
+    --cor-de-fundo: #a5e2f5;
     --verde: #fdfdfd;
-    --branco: #000000;
-    --botao-ativo: #3896ee;
-    --botao-inativo:#73a2ce (74, 114, 223, 0.5);
-    --texto-de-fundo: rgba(55, 144, 160, 0.3);
+    --branco: #0103a8;
+    --botao-ativo: #8bf3e2;
+    --botao-inativo: #a5e2f5;
+    --texto-de-fundo: #a5e2f5;
 }
 
     body{
@@ -35,7 +35,7 @@
     
     .botao{
         font-family: 'Chakra Petch', sans-serif;
-        background-color: rgb(3, 151, 139);
+        background-color: #a5e2f5;
         color: var(--branco);
         display: flex;
         justify-content: center;
@@ -73,11 +73,11 @@
     
     .botao.ativo{
         background-color: var(--botao-ativo);
-        border-bottom:4px solid salmon;
+        border-bottom:4px solid rgb(241, 239, 243);
     }
     
     .abas-textos{
-        background-color: rgb(65, 213, 233);
+        background-color: #a5e2f5;
         padding: 40px;
         border-radius: 0 0 40px 40px;
     }
@@ -93,7 +93,7 @@
     .aba-conteudo-titulo-principal{
         font-size: 28px;
         text-align: center;
-        color:rgba(211, 214, 46, 0.897);
+        color:rgb(0, 0, 0);
     }
     
     .aba-conteudo-titulo-secundario{
@@ -122,5 +122,5 @@
     .contador-digito-texto{
         font-size: 20px;
         margin: 0;
-        color: tomato;
+        color: rgb(0, 0, 0);
     }
